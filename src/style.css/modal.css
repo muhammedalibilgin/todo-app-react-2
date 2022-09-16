@@ -1,0 +1,12 @@
+#btn-my {
+    display: none;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+}
+
+#min-name {
+    color: red;
+}

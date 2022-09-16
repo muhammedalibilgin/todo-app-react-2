@@ -1,0 +1,86 @@
+/* .frm {
+    background: none;
+} */
+
+.my-input {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.todos {
+    max-height: 75%;
+    min-height: 75%;
+
+    background: none;
+    color: #fff;
+    font-size: large;
+    font-weight: 900;
+}
+
+.todo {
+    background-color: rgba(0, 0, 0, 0.2);
+
+    margin-bottom: 5px;
+    /* display: inline; */
+}
+
+.todo-list {
+    list-style: none;
+    max-height: 75vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-list li.completed label {
+    /* color: #d9d9d9; */
+    color: tomato;
+    text-decoration: line-through;
+    /* background-color: #d9d9d9; */
+}
+
+.destroy {
+    margin-left: 20px;
+}
+
+#edit {
+    background: none;
+    border: none;
+    color: #909aa6;
+}
+
+#edit:hover {
+    color: #fff;
+}
+
+#inputCheck {
+    margin-right: 10px;
+}
+
+#editModalLabel {
+    color: black;
+}
+
+.modal-body {
+    color: greenyellow;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 50px grey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b70102;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}

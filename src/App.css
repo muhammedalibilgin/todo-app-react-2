@@ -1,3 +1,21 @@
+@import "./style.css/todos.css";
+@import "./style.css/modal.css";
+@import "./style.css/header.css";
+@import "./style.css/footer.css";
+html,
+body {
+    height: 100%;
+    background-image: url(./img/backgroundimg.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+
 .App {
     text-align: center;
+    height: 100px;
+}
+
+.my-container {
+    max-height: 100vh;
+    max-height: 100vh;
 }

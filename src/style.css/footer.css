@@ -1,0 +1,16 @@
+.footer {
+    background-color: rgba(14, 13, 13, 0.2);
+
+    height: 10%;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
